@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  height: 150px;
+  gap: 20px;
+}
+
+.search-bar {
+  padding: 8px 16px;
+  width: 400px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}

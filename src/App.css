@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fbfc;
+  color: #333;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content {
+  display: flex;         /* KEY: makes children (sidebar + main) go side by side */
+  gap: 20px;             /* space between sidebar and main */
+}
+
+.main {
+  flex: 1;               /* takes up remaining space */
+}
